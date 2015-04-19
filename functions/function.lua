@@ -1,8 +1,11 @@
+print("hello world")
+print "hello world"
+
 print(8*9 , 9/8)
 print(os.date())
 
-s, e =  string.find("hello Lua users", "Lua")
-print(s , e)
+startPoint, endPoint =  string.find("hello Lua users", "Lua")
+print(startPoint , endPoint)
 
 
 
