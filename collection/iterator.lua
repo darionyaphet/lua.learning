@@ -17,6 +17,11 @@ iter = list_iter(t)
 --    print(element)
 --end
 
-for element in list_iter(t) do
-    print(element)
+--for element in list_iter(t) do
+--    print(element)
+--end
+
+a = {"one", "two", "three"}
+for i,v in ipairs(a) do
+    print(i,v)
 end
